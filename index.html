@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Treats</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <!-- navigation bar  -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="images/logoHeading.png" alt="Default Image" width=200 class="default-image">
+                    <img src="Images/logo.png" alt="Alternate Image" width=60 class="hidden-image">
+                </a>
+                <div class="navbar respnsiveIcon2">
+                    <ul class="navbar-nav respnsiveIcon">
+                        <li class="nav-item respnsiveIcon">
+                            <img src="Images/person.png" alt="Icon">
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav respnsiveIcon">
+                        <li class="nav-item respnsiveIcon">
+                            <img src="Images/cart.png" alt="Icon">
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav">
+                        <button class=" nav-item navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </ul>                      
+                </div>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item ">
+                            <a href="#" class="nav-link">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">PRODUCTS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link active" aria-current="page">ABOUT US</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">FOOD GUIDE</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">FAQ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">CONTACT</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav navIcons">
+                        <li class="nav-item cartIcon">
+                            <img src="Images/person.png" alt="Icon">
+                        </li>
+                        <li class="nav-item cartIcon">
+                            <img src="Images/cart.png" alt="Icon">
+                        </li>
+                        <li class="nav-item ShopButton">
+                            <button type="button" class="btn btn-orange">SHOP NOW</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- banner slider -->
+    <div class="card bg-dark text-white">
+        <div id="arrow-left" class="arrow"></div>
+        <div class="imageText">
+            <div class="hiddenOrangeTextOriginal">
+                <span class="orangeText">From</span> the <br> Himalayas to your<br> home 
+                <div class="buttonBuy">
+                    <button type="button" class="btn btn-orange btnBuy">Buy Products</button>
+                </div>
+            </div>
+            <div class="hiddenOrangeText">
+                <span class="orangeText">From</span> the <br> Himalayas to <br>your home 
+            </div>
+
+        </div>    
+        <div class="slide slide1">
+            <img src="Images/dog_with_treats.png" class="image_banner">
+        </div>
+        <div class="slide slide2"></div>
+        <div class="slide slide3"></div>
+        <div id="arrow-right" class="arrow"></div>
+    </div>
+
+    <br>
+    <div class="container">
+        <div class="grid-container">
+            <div class="grid-item item1">
+                <div class="imageGrid">
+                    <span class="largeText">Save Upto <br> 30% </span><br> <span class="normalText">ON DOG CHEW</span>
+                    <div class="buttonBuy">
+                        <button type="button" class="btn btn-transparent btnBuy btnGrid">Shop Now</button>
+                    </div>
+                </div>   
+                <img src="Images/big dog.png">    
+            </div>
+            <div class="grid-item item2">
+                <div class="imageGrid2">
+                    <span class="largerText">25 %</span> <br> <span class="boldText"> off </span> <br> <span class="normalText">DOG DRG FOOD <br>& MEDICINE</span>
+                    <div class="buttonBuy">
+                       <button type="button" class="btn btn-transparent btnBuy">Shop Now</button>
+                    </div>
+                </div> 
+                <img src="Images/pug.png" >
+            </div>
+            <div class="grid-item item3">
+                <div class="imageGrid3">
+                    <span class="largeText">Food <br> Guide <br>For Your <br> Dog </span>
+                    <div class="buttonBuy">
+                        <button type="button" class="btn btn-transparent btnBuy">Shop Now</button>
+                    </div>
+                </div> 
+                <img src="Images/womenandpup.png">
+            </div>    
+        </div>
+        <div class="containerCarusel">
+            <div class="content">
+                <div class="slideCaruselshow">
+                    <button class="slideCarusel-btn slideCarusel-btn-1"></button>
+                    <button class="slideCarusel-btn slideCarusel-btn-2"></button>
+                    <button class="slideCarusel-btn slideCarusel-btn-3"></button>
+                    <div class="slideCaruselshow-wrapper">
+                        <div class="slideCarusel imageslideCarusel1">
+                            <div class="grid-item item1 caruselGrid-item">
+                                <div class="imageGrid imageGrid-carusel">
+                                    <span class="largeText">Save Upto <br> 30% </span><br> <span class="normalText">ON DOG CHEW</span>
+                                    <div class="buttonBuy">
+                                        <button type="button" class="btn btn-transparent btnBuy btnGrid carusel-btnGrid">Shop Now</button>
+                                    </div>
+                                </div>   
+                            <img src="Images/bigdog.png" class="imageCarusel">    
+                            </div>
+                        </div>
+                        <div class="slideCarusel">
+                            <div class="imageGrid2 imageGrid2-carusel">
+                                <span class="largerText">25 %</span> <br> <span class="boldText"> off </span> <br> <span class="normalText">DOG DRG FOOD <br>& MEDICINE</span>
+                                <div class="buttonBuy">
+                                    <button type="button" class="btn btn-transparent btnBuy btnGrid carusel-btnGrid">Shop Now</button>
+                                </div>
+                            </div> 
+                            <img class="slideCarusel-img" src="Images/pug.png"> 
+                        </div>
+                        <div class="slideCarusel imageslideCarusel">
+                            <div class="imageGrid3 imageGrid3-carusel">
+                                <span class="largeText">Food <br> Guide <br>For Your <br> Dog </span>
+                                <div class="buttonBuy">
+                                    <button type="button" class="btn btn-transparent btnBuy btnGrid carusel-btnGrid">Shop Now</button>
+                                </div>
+                            </div> 
+                            <img class="slideCarusel-img" src="Images/womenandpup.png" height="300px">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <h1 style="text-align: center;">Our Recent Products</h1>
+        <img src="Images/Group 11.png" class="center"> <br>
+
+        <div class="flexbox">
+            <div class="box">
+                <div class="sub-box1"><img src="Images/image 30.png" alt="" class="ImageFlex"></div>
+                <div class="sub-box2">
+                    <span>HAPPY SMALL TREATS </span><br>
+                    <button type="button" class="btn btn-orange">BUY NOW</button>
+                </div>
+            </div>
+            <div class="box">
+                <div class="sub-box1 imagesPadding"><img src="Images/image 16.png" alt="" height="210" class="ImageFlex2"></div>
+                <div class="sub-box2">
+                    <span>LARGE </span><br>
+                    <button type="button" class="btn btn-orange">BUY NOW</button>
+                </div>
+            </div>
+            <div class="box">
+                <div class="sub-box1 imagesPadding"><img src="Images/image 17.png" alt="" height="210" class="ImageFlex2"></div>
+                <div class="sub-box2">
+                    <span>3PCS SMALL </span><br>
+                    <button type="button" class="btn btn-orange">BUY NOW</button>
+                </div>
+            </div>
+            <div class="box">
+                <div class="sub-box1 imagesPadding"><img src="Images/image 18.png" alt="" height="210" class="ImageFlex2"></div>
+                <div class="sub-box2">
+                    <span>3PCS LARGE </span><br>
+                    <button type="button" class="btn btn-orange">BUY NOW</button>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <br><br>
+    
+    <div class="blueBox">
+        <div class="container">
+            <div class="divText">
+                <h1>Natural Ingredients and Natural Happiness</h1>
+                <img src="Images/Group 46.png" alt="" srcset="">
+            </div>  
+            <div class="containerImage">
+                <div class="box2 box-left">
+                    <div id="main">
+                        <div>
+                            <img src="Images/natural.png" alt="" srcset="">
+                            <br>NATURAL <br>
+                            <img src="Images/Group 46.png" alt="" srcset="">
+                        </div> <br>
+                        <div>
+                            <img src="Images/handhimalyas.png" alt="" srcset="">
+                            <br>HAND MADE IN<br>THE HIMALAYAS <br>
+                            <img src="Images/Group 46.png" alt="" srcset="">
+                        </div><br>
+                        <div>
+                            <img src="Images/protein.png" alt="" srcset="">
+                            <br>HIGH<br>PROTEIN <br>
+                            <img src="Images/Group 46.png" alt="" srcset="">
+                        </div>
+                    </div>
+                </div>
+                <div class="box2 boxCenter">
+                    <img src="Images/dog and man.png" alt="" srcset="" height="600">
+                </div>
+                <div class="box2 box-right">
+                    <div id="main">
+                        <div>
+                            <img src="Images/clock.png" alt="" srcset="">
+                            <br>NATURAL <br>
+                            <img src="Images/Group 46.png" alt="" srcset="">
+                        </div> <br>
+                        <div>
+                            <img src="Images/teeth.png" alt="" srcset="">
+                            <br>HAND MADE IN<br>THE HIMALAYAS <br>
+                            <img src="Images/Group 46.png" alt="" srcset="">
+                        </div><br>
+                        <div>
+                            <img src="Images/preservatives.png" alt="" srcset="">
+                            <br>HIGH<br>PROTEIN <br>
+                            <img src="Images/Group 46.png" alt="" srcset="">
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </div>
+    </div>
+    
+    <div id="grad1">
+        <div class="grid-container2">
+            <div class="grid-item3">
+                <h2>Why happy Treates</h2>
+                <img src="Images/Group 11.png" alt="" srcset=""><br>
+                Happy Treats are not only a great way to treat your dog but also help to clean their teeth and massage their gums, promoting overall oral health. Plus, unlike many other dog treats on the market, Happy Treats are made without any artificial preservatives or chemicals, making them a safer and healthier choice for your pet.
+                <br>Another great feature of Himalayan dog chews is that they are sustainable and eco-friendly. If you're looking for a treat that is not only delicious but also healthy and eco-friendly, then Himalayan dog chews are the perfect choice for you and your furry friend. So go ahead, treat your dog to a taste of the Himalayas today!
+            </div>
+            <div class="grid-item2">
+                <img src="Images/why.png" alt="" srcset="">
+            </div>
+        </div>
+    </div>
+
+    <div class="container flex-container2">
+        <div>
+            <p class="instagram">Check out our instagram</p>
+            <img src="Images/Group 11.png" alt="" srcset="">
+            <div class="flexboxSocial">
+                <div class="box3">
+                    <div class="sub-box3 insta"><img src="Images/Rectangle 73.png" class="imgResponsive" alt="" ></div>
+                </div>
+                <div class="box3">
+                    <div class="sub-box3 insta"><img src="Images/Rectangle 74.png" class="imgResponsive" ></div>
+                </div>
+                <div class="box3">
+                    <div class="sub-box3 insta"><img src="Images/Rectangle 75.png" class="imgResponsive"></div>
+                </div>
+                <div class="box3">
+                    <div class="sub-box3 insta"><img src="Images/Rectangle 76.png"  class="imgResponsive"></div>
+                </div>
+            </div>
+        </div> 
+    </div>
+
+    <!-- FOOTER -->
+    <div class="darkBlueBox">
+        <div class="container">
+            <footer class="text-center text-white" style="background-color: #002841"> 
+              <div class="container">
+                <img src="Images/logo.png" alt="" width="150">
+                <section>
+                  <div class="row text-center d-flex justify-content-center pt-5">
+                    <div class="col-md-2">
+                      <h6 class="text-uppercase font-weight-bold">
+                        <a href="#!" class="text-color active2">HOME</a>
+                      </h6>
+                    </div>
+                    <div class="col-md-2">
+                      <h6 class="text-uppercase font-weight-bold">
+                        <a href="#!" class="text-color">PRODUCTS</a>
+                      </h6>
+                    </div>
+                    <div class="col-md-2">
+                      <h6 class="text-uppercase font-weight-bold">
+                        <a href="#!" class="text-color">ABOUT US</a>
+                      </h6>
+                    </div>
+                    <div class="col-md-2">
+                      <h6 class="text-uppercase font-weight-bold">
+                        <a href="#!" class="text-color">FOOD GUIDE</a>
+                      </h6>
+                    </div>
+                     
+                    <div class="col-md-2">
+                        <h6 class="text-uppercase font-weight-bold">
+                          <a href="#!" class="text-color">FAQ</a>
+                        </h6>
+                      </div>
+                       
+                    <div class="col-md-2">
+                      <h6 class="text-uppercase font-weight-bold">
+                        <a href="#!" class="text-color">CONTACT US</a>
+                      </h6>
+                    </div>
+                     
+                  </div>
+                </section>
+                  
+                <br>              
+              </div>
+    
+            </footer>
+           
+        </div>
+        <section>
+            <div class="row d-flex justify-content-center">
+                <div class="col-lg-8">
+                <table class="table">
+                    <tr>
+                        <th><h5>We accept</h5></th>
+                        <th><h5>Contact</h5></th>
+                        <th><h5>Business Hours</h5></th>
+                        <th><h5>Follow Us</h></th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="#"><img src="Images/pay1.png" alt=""></a>
+                            <a href="#"><img src="Images/pay2.png" alt=""></a>
+                            <a href="#"><img src="Images/pay3.png" alt=""></a>
+                            <a href="#"><img src="Images/pay4.png" alt=""></a>
+                            <a href="#"><img src="Images/pay5.png" alt=""></a><br>
+                            <a href="#"><img src="Images/pay6.png" alt=""></a>
+                            <a href="#"><img src="Images/pay7.png" alt=""></a>
+                            <a href="#"><img src="Images/pay8.png" alt=""></a>
+                            <a href="#"><img src="Images/pay9.png" alt=""></a>
+                        </td>
+                        <td>
+                            <span style="color: #fcba3b;">T:</span>  (+08)123 456 789 <br>
+                            <span style="color: #fcba3b;">E:</span> demo@gmail.com
+                        </td>
+                        <td>
+                            Mon-Fri: 9.00-20.00 <br>
+                            Sat-Sun:10.00-16.00
+                        </td>
+                        <td>
+                            <a href="#"><img src="Images/fb.png" alt=""></a>
+                            <a href="#"><img src="Images/insta.png" alt=""></a>
+                            <a href="#"><img src="Images/youtube.png" alt=""></a>
+                        </td>
+                    </tr>
+                </table>
+                </div>
+            </div>
+        </section>
+        <div class="container">
+            <div class="tablehidden">
+                <div class="contentFooter">
+                    <h3>Contact Us</h3>
+                    <span style="color: #fcba3b;">T:</span>  (+08)123 456 789 <br>
+                    <span style="color: #fcba3b;">E:</span> demo@gmail.com
+                    <br><br>
+                    <h3>We Accept</h3>
+                    <a href="#"><img src="Images/pay1.png" alt=""></a>
+                    <a href="#"><img src="Images/pay2.png" alt=""></a>
+                    <a href="#"><img src="Images/pay3.png" alt=""></a>
+                    <a href="#"><img src="Images/pay4.png" alt=""></a>
+                    <a href="#"><img src="Images/pay5.png" alt=""></a>
+                    <a href="#"><img src="Images/pay6.png" alt=""></a>
+                    <a href="#"><img src="Images/pay7.png" alt=""></a>
+                    <a href="#"><img src="Images/pay8.png" alt=""></a>
+                    <a href="#"><img src="Images/pay9.png" alt=""></a>
+                    <br><br>
+                    <h3>Follow us</h3>
+                    <a href="#"><img src="Images/fb.png" alt=""></a>
+                    <a href="#"><img src="Images/insta.png" alt=""></a>
+                    <a href="#"><img src="Images/youtube.png" alt=""></a>
+                </div>
+                
+        </div>
+        </div>
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+               © 2023 Copyright |
+               <a class="text-white" href="#">Happy Treats</a> | All Rights Reserved
+        </div>    
+    </div> 
+
+
+
+    <script src="style.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
