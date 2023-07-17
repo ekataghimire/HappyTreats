@@ -1,149 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link rel="stylesheet" href="style.css">
-	<style>
-		.containerCarusel {
-			display: flex;
-			flex-direction: column;
-			justify-content: center;
-			align-items: center;
-			margin: auto;
-			width: 0px;
-			height: 600px;
-		}
-		.content {
-			position: relative;
-		}
-
-		.slideCaruselshow {
-			height: 103%;
-			overflow: hidden; 
-			position: relative;
-		}
-
-		.slideCaruselshow-wrapper {
-			display: flex;
-			width: 300%;
-			height: 100%;
-			position: relative;
-			/* animation: slideCaruselshow 20s infinite; */
-		}
-		.slideCaruselCarusel {
-			width: 80%;
-			height: 110%;
-      border-radius: 38px;
-		}
-		.slideCarusel-img {
-			width: 100%;
-			height: 93%;
-			object-fit: cover;
-		}
-
-		.slideCarusel-btn {
-			background-color: #054c93;
-			border-radius: 50%;
-			width: 0.8rem;
-			height: 0.8rem;
-			outline: none;
-			cursor: pointer;
-			position: absolute;
-			bottom: 3%;
-			left: 50%;
-			transform: translateX(-50%);
-			z-index: 70;
-		}
-		.slideCarusel-btn-1 {
-			left: 45%;
-		}
-		.slideCarusel-btn-2 {
-			left: 50%;
-		}
-		.slideCarusel-btn-3 {
-			left: 55%;
-		}
-		.slideCarusel-btn-1:focus~.slideCaruselshow-wrapper {
-			animation: none;
-			left: 0;
-		}
-		.slideCarusel-btn-2:focus~.slideCaruselshow-wrapper {
-			animation: none;
-			left: -100%;
-		}
-		.slideCarusel-btn-3:focus~.slideCaruselshow-wrapper {
-			animation: none;
-			left: -200%;
-		}
-
-		.slideCarusel-btn:focus {
-			background-color: orange;
-		}
-
-    .caruselGrid-item{
-      width: max-content;
-      height: 330px;
+  <style>
+    .dog_paw {
+      position: relative;
+      overflow: hidden;
+      clip-path: polygon(0 0, 100% 0, 100% 90%, 70% 100%, 30% 90%, 0 100%);
     }
-    .imageGrid-carusel{
-      padding-left: 34px;
-      top: 25px;
-    }
-    .carusel-btnGrid{
-      background-color: transparent !important;
-      padding: 15px;
-    }
-    .imageGrid2-carusel{
-      background-color: #0764c2 ;
-      z-index: -1;
-      height: 100%;
-      border-radius: 38px;
-    }
-    .imageslideCarusel{
-      background-color: #d38800;
-      border-radius: 38px;
-    }
-
-	</style>
+  </style>
 </head>
 <body>
-	<div class="containerCarusel">
-		<div class="content">
-			<div class="slideCaruselshow">
-				<button class="slideCarusel-btn slideCarusel-btn-1"></button>
-				<button class="slideCarusel-btn slideCarusel-btn-2"></button>
-				<button class="slideCarusel-btn slideCarusel-btn-3"></button>
-				<div class="slideCaruselshow-wrapper">
-					<div class="slideCarusel imageslideCarusel1">
-						<div class="grid-item item1 caruselGrid-item">
-              <div class="imageGrid imageGrid-carusel">
-                  <span class="largeText">Save Upto <br> 30% </span><br> <span class="normalText">ON DOG CHEW</span>
-                  <div class="buttonBuy">
-                      <button type="button" class="btn btn-transparent btnBuy btnGrid carusel-btnGrid">Shop Now</button>
-                  </div>
-              </div>   
-              <img src="Images/bigdog.png">    
-          </div>
-					</div>
-					<div class="slideCarusel">
-              <div class="imageGrid2 imageGrid2-carusel">
-                <span class="largerText">25 %</span> <br> <span class="boldText"> off </span> <br> <span class="normalText">DOG DRG FOOD <br>& MEDICINE</span>
-                <div class="buttonBuy">
-                  <button type="button" class="btn btn-transparent btnBuy btnGrid carusel-btnGrid">Shop Now</button>
-                </div>
-          </div> 
-          <img class="slideCarusel-img" src="Images/pug.png"> 
-					</div>
-					<div class="slideCarusel imageslideCarusel">
-						<div class="imageGrid3 imageGrid3-carusel">
-              <span class="largeText">Food <br> Guide <br>For Your <br> Dog </span>
-              <div class="buttonBuy">
-                  <button type="button" class="btn btn-transparent btnBuy btnGrid carusel-btnGrid">Shop Now</button>
-              </div>
-          </div> 
-          <img class="slideCarusel-img" src="Images/womenandpup.png" height="300px">
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+  <img src="Images/dog_with_treats.png" class="dog_paw" alt="">
 </body>
 </html>
